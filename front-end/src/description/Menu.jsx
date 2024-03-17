@@ -1,4 +1,5 @@
 import NavBar from '../component/navbar';
+import Footer from '../footer/footer';
 import './Menu.css';
 //import Home from '';
 import background_picture  from '../image/background_menu_1.png';
@@ -22,6 +23,7 @@ const Menu = () => {
             </div>
             <div className='price_rum1'> 1,059 BAHT</div>
         </div>
+        <Footer/>
        </div>
     );
 }
